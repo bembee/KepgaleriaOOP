@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+  background-color: grey;
+}
+
+main {
+  background-color: white;
+  max-width: 900px;
+  margin: auto;
+}
+h1{
+    text-align: center;
+}
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+}
+article img {
+  width: 100%;
+}
+
+article div {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#nagyKep img {
+  width: 100%;
+}
+section {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+}
+
+footer {
+  padding: 5px;
+  text-align: center;
+}
