@@ -6,7 +6,6 @@ class Kep {
     this.cim = this.elem.children("h3");
     this.kep = this.elem.children("img");
     this.leiras = this.elem.children("p");
-    console.log(this.adat.index);
     this.setAdatok(this.adat);
     this.elem.on("click", () => {
       this.KattintasTrigger();  
